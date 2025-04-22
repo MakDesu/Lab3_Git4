@@ -52,7 +52,7 @@ namespace Lab3_Git4
         {
             if (BonusPoints >= points)
             {
-        
+                BonusPoints -= points;
                 Console.WriteLine($"{points} бонусних балів списано. Поточний баланс: {BonusPoints}");
                 return true;
             }
